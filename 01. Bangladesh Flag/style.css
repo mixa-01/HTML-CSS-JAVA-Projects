@@ -1,0 +1,35 @@
+/* Container with green background */
+.greenPart {
+    height: 300px;
+    width: 500px;
+    background-color: green;
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+    position: fixed;
+    /* Fixed position relative to the viewport */
+    top: 50%;
+    /* Center vertically in the viewport */
+    left: 50%;
+    /* Center horizontally in the viewport */
+    transform: translate(-50%, -50%);
+    /* Offset by 50% to center */
+}
+
+/* Circular element with red background */
+.redCircle {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    /* Make it a circle */
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: center;
+    /* Center content horizontally */
+    align-items: center;
+    /* Center content vertically */
+}
