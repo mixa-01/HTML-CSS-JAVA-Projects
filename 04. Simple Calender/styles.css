@@ -1,0 +1,61 @@
+:root {
+    --background-color: #3498DB;
+    --container-color: #F7F9FC;
+    --text-color: rgba(169, 169, 169, 0.735);
+    --contBox-color: #E74C3C;
+    --shadow-color:0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: cursive;
+    width: 100vw;
+    margin: 0;
+}
+
+.calendar-container {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: var(--container-color);
+    box-shadow:var(--shadow-color);
+    overflow: hidden;
+    border-radius: 10%;
+    
+}
+
+.calendar-day,
+.calendar-month,
+.calendar-date,
+.calendar-year {
+    margin: 0;
+    padding: 0;
+}
+
+.calendar-day {
+    font-size: 22px;
+}
+
+.calendar-month {
+    background-color:var( --contBox-color) ;
+    color: white;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 7%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.calendar-date {
+    font-size: 90px;
+    color: rgb(0, 0, 0);
+}
+
+.calendar-year {
+    font-size: 32px;;
+    margin-bottom: 5%;    
+}
