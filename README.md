@@ -11,6 +11,7 @@ Hello there , I am learning web development.So, Here are some projects I have ma
 - [Personal Portfolio Card](https://mixa-01.github.io/HTML-CSS-JAVA-Projects/02.%20Simple%20Portfolio/index.html)
 - [QR Code Generator](https://mixa-01.github.io/HTML-CSS-JAVA-Projects/03.%20QR%20Code%20Generator/index.html)
 - [Simple Calendar](https://mixa-01.github.io/HTML-CSS-JAVA-Projects/04.%20Simple%20Calender/index.html)
+- [Simple Digital Clock](https://mixa-01.github.io/HTML-CSS-JAVA-Projects/05.Simple%20Digital%20Clock/index.html)
 
 
 
