@@ -33,3 +33,23 @@
     align-items: center;
     /* Center content vertically */
 }
+.foot p{
+    position: absolute;
+    bottom: 0%;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    word-spacing: 1px;
+    
+}
+.footer{
+    text-decoration: underline;
+    color: wheat;
+    font-weight: bolder;
+}
+
+.footer:hover{
+    color: #000;
+    text-decoration: none;
+    font-size: 22px;
+}
